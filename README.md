@@ -4,7 +4,7 @@ For my Bachelor Degree project, I developed a **website** and **3D game** to mak
 
 **Here you can find a backend server part.**
 
-In the backend, I used **Django REST Framework** to develop APIs serving both the frontend website and the game interface. Website requests include CRUD operations, grade report generation, and leaderboard calculations, while the game interacts with the API to fetch test questions and submit answers. Django REST Framework provides built-in tools for **authentication, permissions, and secure access**, improving the overall security and reliability of the server and database. Its mixins and viewsets help keep the **code clean and maintainable**. Additionally, I used **Celery** to automatically update class information annually.
+In the backend, I used **Django REST Framework** to develop APIs serving both the frontend website and the game interface. Website requests include **CRUD operations, grade report generation, and leaderboard calculations**, while the game interacts with the API to **fetch test questions and submit answers**. Django REST Framework provides built-in tools for **authentication, permissions, and secure access**, improving the overall security and reliability of the server and database. Its mixins and viewsets help keep the **code clean and maintainable**. Additionally, I used **Celery** to automatically update class information annually.
 
 - **Frontend repository** can be found here: https://github.com/agnerau/goose-frontend
 - **WebGL build** for the game can be found here: https://github.com/agnerau/goose-game
